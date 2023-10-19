@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../components/nav_bar'
 import LogoUSM from '../assets/usm.png'
 
-export const AuspiPage = () => {
+export const ActualPage = () => {
   return (
     <div className='page'>
       <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -10,9 +10,9 @@ export const AuspiPage = () => {
         <h1 className='page__title'>Feria de Software</h1>
       </div>
       <NavBar />
-      <h2>Auspiciadores</h2>
+      <h2>Proyectos de la Feria de Software de la edición actual</h2>
     </div>
   )
 }
 
-export default AuspiPage
+export default ActualPage
