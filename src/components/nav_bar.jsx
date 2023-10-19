@@ -8,13 +8,35 @@ export const NavBar = () => {
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/'
       >
-        Página de inicio
+        Página Principal
       </NavLink>
+      
       <NavLink
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/internal'
+        to='/historia'
       >
-        Página Interna
+        Historia
+      </NavLink>
+
+      <NavLink
+        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+        to='/auspiciadores'
+      >
+        Auspiciadores
+      </NavLink>
+
+      <NavLink
+        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+        to='/proy_actual'
+      >
+        Proyectos Actuales
+      </NavLink>
+
+      <NavLink
+        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+        to='/proy_anterior'
+      >
+        Proyectos Ediciones Anteriores
       </NavLink>
     </nav>
   )
