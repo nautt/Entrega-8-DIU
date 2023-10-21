@@ -7,7 +7,7 @@ export const AnteriorPage = () => {
   return (
     <div className='page'>
       <FullNavbar/>
-      <h2>Proyectos de la Feria de Software de ediciones anteriores</h2>
+      <h1>Proyectos de la Feria de Software de ediciones anteriores</h1>
       <Button variant="contained">button</Button> 
     </div>
   )
