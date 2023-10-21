@@ -15,7 +15,7 @@ export const ActualPage = () => {
   return (
     <div className='page'>
       <FullNavbar/>
-      <h2>Proyectos de la Feria de Software de la edición actual</h2>
+      <h1>Proyectos de la Feria de Software de la edición actual</h1>
       <ColoredRectangles/>
     </div>
   )

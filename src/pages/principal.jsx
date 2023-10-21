@@ -5,7 +5,7 @@ export const HomePage = () => {
   return (
     <div className='page'>
       <FullNavbar/>
-      <h2>Página Principal</h2>
+      <h1>Página Principal</h1>
     </div>
   )
 }
