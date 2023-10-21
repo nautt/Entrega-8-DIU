@@ -1,16 +1,14 @@
 import React from 'react'
-import NavBar from '../components/nav_bar'
-import LogoUSM from '../assets/usm.png'
+import FullNavbar from '../components/full_navbar.jsx'
+import ColoredRectangles from '../components/rectangles.jsx'
+import '../stylesheets/rectangles/rectangles.scss'
 
 export const ActualPage = () => {
   return (
     <div className='page'>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={LogoUSM} height={100} alt='logo usm' style={{ marginRight: '20px' }} />
-        <h1 className='page__title'>Feria de Software</h1>
-      </div>
-      <NavBar />
+      <FullNavbar/>
       <h2>Proyectos de la Feria de Software de la edición actual</h2>
+      <ColoredRectangles/>
     </div>
   )
 }

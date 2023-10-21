@@ -1,0 +1,14 @@
+.colored-rectangles-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.block-element {
+  display: block;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 32px;
+}
