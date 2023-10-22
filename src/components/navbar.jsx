@@ -14,9 +14,9 @@ export const Custom_Navbar = () => {
   return (
 
     <Navbar 
-      bg="dark"
+      bg="dark" data-bs-theme="dark"
       expand="lg" 
-      className="bg-body-tertiary navbar-style">
+      className="navbar-style">
       <Container>
         <Navbar.Brand href="/">
           <img
@@ -24,7 +24,7 @@ export const Custom_Navbar = () => {
               src='https://www.feriadesoftware.cl/wp-content/themes/AA-fesw2017/img/fesw-logo.png'
               // width="30"
               height="80"
-              className="d-inline-block align-top"
+              className="d-inline-block align-center"
           />{' '}
           {/* <img
               alt=""
@@ -33,9 +33,7 @@ export const Custom_Navbar = () => {
               height="80"
               className="d-inline-block align-top"
           />{' '} */}
-          <Navbar.Text>
-            31ª Feria de Software
-          </Navbar.Text>
+          31ª Feria de Software
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -60,10 +58,8 @@ export const Custom_Navbar = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-        </Navbar.Collapse>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-            <Button className="register_button" variant="success" href='/register_page'>Comprar</Button>{' '}
+          {/* <Navbar.Toggle /> */}
+              <Button className="justify-content-end register_button" variant="success" href='/register_page'>Comprar</Button>{' '}
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -10,10 +10,12 @@
 //Navbar
 @import './nav-bar/nav-bar';
 @import './nav-bar/nav-bar__link';
-// @import './nav-bar/index.scss';
 
 //Pages
 @import './page/index';
+
+//Cards
+@import './rectangles/cards';
 
 html, body {
   padding: 0px;
