@@ -1,7 +1,6 @@
 import React from 'react';
 
 const OneRectangle1 = () => {
-  // Define an array of colors
   const color = ["#3a72a9"];
   const text = ['Esta actividad se ha consolidado a lo largo del tiempo como una oportunidad en que los alumnos del Departamento de Informática de la Casa Central y del Campus Santiago de la Universidad Técnica Federico Santa María, muestran a la comunidad sus conocimientos, capacidad creativa, trabajo en equipo y emprendimiento.',
                 'La idea central de esta iniciativa es potenciar la formación profesional de los estudiantes, a través de la fabricación de productos de software, que solucionen una problemática real de nuestra sociedad, y además, reafirmar la apuesta-país de desarrollo e innovación tecnológica, como así también fomentar la capacidad emprendedora en los jóvenes expositores.', 

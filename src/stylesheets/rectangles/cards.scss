@@ -1,0 +1,16 @@
+.horizontal-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
