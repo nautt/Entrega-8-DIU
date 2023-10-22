@@ -1,5 +1,5 @@
 import React from 'react'
-import FullNavbar from '../components/full_navbar.jsx'
+import Custom_Navbar from '../components/navbar.jsx'
 
 import LogoSCOTIA from '../assets/scotia.png'
 import LogoNTTDATA from '../assets/ntt_data.png'
@@ -11,8 +11,8 @@ import SaltoLinea from '../assets/blanco.png'
 
 export const AuspiPage = () => {
   return (
-    <div className='page'>
-      <FullNavbar/>
+    <>
+      <Custom_Navbar/>
       <h1>Auspiciadores</h1>
       <br />
       <div className="image-box" style={{ display: 'flex',justifyContent: 'center', alignItems: 'center',backgroundColor: 'white' }}>
@@ -35,7 +35,7 @@ export const AuspiPage = () => {
       </div>
 
 
-    </div>
+    </>
   )
 }
 

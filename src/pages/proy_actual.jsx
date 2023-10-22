@@ -1,6 +1,6 @@
 import React from 'react'
 import RectangleCards from '../components/rectangle_cards.jsx'
-import FullNavbar from '../components/full_navbar.jsx'
+import Custom_Navbar from '../components/navbar.jsx'
 import '../stylesheets/rectangles/oneRectangle.scss'
 
 import placeholder from '../assets/placeholder.jpg'
@@ -16,11 +16,11 @@ const data = [
 
 export const ActualPage = () => {
   return (
-    <div className='page'>
-      <FullNavbar/>
+    <>
+      <Custom_Navbar/>
       <h1>Proyectos de la Feria de Software de la edición actual</h1>
       <RectangleCards title={title[0]} color={colors[0]} data={data}/>
-    </div>
+    </>
   )
 }
 

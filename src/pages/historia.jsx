@@ -7,14 +7,13 @@ import '../stylesheets/rectangles/oneRectangle.scss'
 
 export const HistoriaPage = () => {
   return (
-    // <div className='page'>
-    <div>
+    <>
       <Custom_Navbar/>
       <h1>Historia de la Feria de Software</h1>
       <OneRectangle1/>
       <h1>Organización</h1>
       <OneRectangle2/>
-    </div>
+    </>
   )
 }
 

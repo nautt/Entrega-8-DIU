@@ -58,55 +58,12 @@ export const Custom_Navbar = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          {/* <Navbar.Toggle /> */}
-              <Button className="justify-content-end register_button" variant="success" href='/register_page'>Comprar</Button>{' '}
+          <Button className="justify-content-end register_button" variant="success" href='/register_page'>
+            RESERVA TU ENTRADA
+          </Button>{' '}
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-    // <nav className='nav-bar'>
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/'
-    //   >
-    //     Página Principal
-    //   </NavLink>
-      
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/historia'
-    //   >
-    //     Historia
-    //   </NavLink>
-
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/auspiciadores'
-    //   >
-    //     Auspiciadores
-    //   </NavLink>
-
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/proy_actual'
-    //   >
-    //     Proyectos Actuales
-    //   </NavLink>
-
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/proy_anterior'
-    //   >
-    //     Proyectos Ediciones Anteriores
-    //   </NavLink>
-
-    //   <NavLink
-    //     className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-    //     to='/proy_anterior'
-    //   >
-    //     <button type="button" class="btn btn-success">Comprar Entradas</button>
-    //   </NavLink>
-    // </nav>
   );
 }
 

@@ -1,12 +1,13 @@
-.navbar-style {
+nav.navbar-style {
   display: flex;
   background-color: rgb(35, 48, 121);
   padding: 40px;
   margin-bottom: 30px;
 }
 
-.register_button {
+Button.register_button {
   // color: white;
+  background-color: orangered;
 }
 
 /* import bootstrap to set changes */
