@@ -38,11 +38,7 @@ export const Custom_Navbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/historia">
-              <Navbar.Text>
-                Historia
-              </Navbar.Text>
-            </Nav.Link>
+            <Nav.Link href="/historia">Historia</Nav.Link>
             <Nav.Link href="/auspiciadores">Auspiciadores</Nav.Link>
             <Nav.Link href="/proy_actual">Proyectos Actuales</Nav.Link>
             <Nav.Link href="/proy_anterior">Proyectos Ediciones Anteriores</Nav.Link>

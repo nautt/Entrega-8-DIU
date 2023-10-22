@@ -14,8 +14,13 @@
 //Pages
 @import './page/index';
 
+//Register Page
+@import './register/register.scss';
+
+
 //Cards
 @import './rectangles/cards';
+
 
 html, body {
   padding: 0px;

@@ -1,0 +1,39 @@
+.register-body {
+    padding: 1rem 2rem;
+    height: 80vh;
+    width: 100vw;
+    background-image: url("https://c15208330.ssl.cf2.rackcdn.com/uploads/public/images/headers/6eb45d25f00aec34745b929ea095bb51.png");
+    background-size: cover;
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    // box-shadow: inset 0px 50px 50px -10px black;
+
+    h1 {
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+}
+
+.container.register-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card.form-container {
+    width: 40rem;
+    background-color: rgba($color: rgb(33, 37, 41), $alpha: .9);
+    box-shadow: 0px 10px 20px 6px black;
+}
+
+.card-body.register-card-body {
+    color: whitesmoke !important;
+}
+
+.card-title.register-card-title {
+    color: whitesmoke !important;
+}
+
+
+@import '~bootstrap/scss/bootstrap'
