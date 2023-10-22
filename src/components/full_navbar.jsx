@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../components/nav_bar'
+import NavBar from './navbar'
 import LogoUSM from '../assets/usm.png'
 
 export const FullNavbar = () => {

@@ -6,6 +6,7 @@ import HistoriaPage from '../pages/historia'
 import AuspiPage from '../pages/auspiciadores'
 import ActualPage from '../pages/proy_actual'
 import AnteriorPage from '../pages/proy_anterior'
+import RegisterPage from '../pages/register'
 
 
 const AppRouter = () => {
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path='/auspiciadores' element={<AuspiPage />} />
         <Route path='/proy_actual' element={<ActualPage/>} />
         <Route path='/proy_anterior' element={<AnteriorPage/>} />
+        <Route path='/register_page' element={<RegisterPage/>} />
       </Routes>
     </BrowserRouter>
   )
