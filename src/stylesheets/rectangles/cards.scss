@@ -6,11 +6,13 @@
 }
 
 .card {
-  width: 200px;
-  height: 150px;
+  
+  width: 400px;
+  min-height: 150px;
+  height: auto;
   margin: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
+  border: 5px solid #ccc;
+
   padding: 10px;
 }
 
