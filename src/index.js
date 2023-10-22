@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './stylesheets/index.scss';
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 import AppRouter from './components/app_router'
 
