@@ -23,7 +23,7 @@ export const ActualPage = () => {
         <h1>Proyectos de la Feria de Software de la edición actual</h1>
         <RectangleCards title={title[0]} color={colors[0]} data={data}/>
         <RectangleCards title={title[1]} color={colors[1]} data={data}/>
-        <RectangleCards title={title[0]} color={colors[2]} data={data}/>
+        <RectangleCards title={title[2]} color={colors[0]} data={data}/>
       </div>
     </>
   )
