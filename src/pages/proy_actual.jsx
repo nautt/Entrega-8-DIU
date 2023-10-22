@@ -18,8 +18,10 @@ export const ActualPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <h1>Proyectos de la Feria de Software de la edición actual</h1>
-      <RectangleCards title={title[0]} color={colors[0]} data={data}/>
+      <div className='container' style={{marginTop:"40px"}}>
+        <h1>Proyectos de la Feria de Software de la edición actual</h1>
+        <RectangleCards title={title[0]} color={colors[0]} data={data}/>
+      </div>
     </>
   )
 }

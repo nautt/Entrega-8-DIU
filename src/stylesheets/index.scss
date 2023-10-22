@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 @import '~bootstrap/scss/bootstrap';
+
+//Variables
+$main-color: rgb(35, 48, 121);
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background-color: $main-color;
+}
+
+body {
+  background-color: $main-color !important;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  // background-color: rgb(35, 48, 121);
+}
+
 /*
 *** Para personalizar bootstrap importar aquí archivos .scss custom.
 *** Importante incluir "@import '~bootstrap/scss/bootstrap';" como ultima linea en cada .scss custom.
 *** https://react-bootstrap.netlify.app/docs/getting-started/introduction#customize-bootstrap
 */
-
 //Navbar
 @import './nav-bar/nav-bar';
 @import './nav-bar/nav-bar__link';
@@ -17,19 +35,5 @@
 //Register Page
 @import './register/register.scss';
 
-
 //Cards
 @import './rectangles/cards';
-
-
-html, body {
-  padding: 0px;
-  margin: 0px;
-  background-color: rgb(35, 48, 121);
-}
-
-* {
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  // background-color: rgb(35, 48, 121);
-}

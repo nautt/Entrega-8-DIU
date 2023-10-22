@@ -5,7 +5,9 @@ export const HomePage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <h1>Página Principal</h1>
+      <div className='container' style={{marginTop:"40px"}}>
+        <h1>Página Principal</h1>
+      </div>
     </>
   );
 }
