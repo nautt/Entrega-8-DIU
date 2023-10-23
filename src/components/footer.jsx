@@ -21,6 +21,8 @@ export const Footer = () => {
                     <Col>
                         <h4>XXXI Feria de Software</h4>
                         <p>Campus Casa Central Valparaíso</p>
+                        <p>Campus Santiago San Joaquín</p>
+                        <a href="https://www.feriadesoftware.cl/#:~:text=2)%202303%207200-,feria%40inf.utfsm.cl,-31%C2%AA%20Feria%20de">feria@inf.utfsm.cl</a>
 
                     </Col>
                     <Col>
