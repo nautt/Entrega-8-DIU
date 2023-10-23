@@ -5,8 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Searchbar from './search_bar.jsx';
 
-
-import LogoUSM from '../assets/usm.png'
 // import LogoFeria from 'https://www.feriadesoftware.cl/wp-content/themes/AA-fesw2017/img/fesw-logo.png'
 
 export const Custom_Navbar = () => {
@@ -25,13 +23,6 @@ export const Custom_Navbar = () => {
               height="80"
               className="d-inline-block align-center"
           />{' '}
-          {/* <img
-              alt=""
-              src={LogoUSM}
-              // width="30"
-              height="80"
-              className="d-inline-block align-top"
-          />{' '} */}
           31ª Feria de Software
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -43,7 +34,7 @@ export const Custom_Navbar = () => {
             <Nav.Link href="/proy_anterior">Proyectos Ediciones Anteriores</Nav.Link>
           </Nav>
           <Searchbar/>
-          <Button className="justify-content-end register_button" variant="success" href='/register_page'>
+          <Button className="justify-content-end register-button" variant="success" href='/register_page'>
             RESERVA TU ENTRADA
           </Button>{' '}
         </Navbar.Collapse>

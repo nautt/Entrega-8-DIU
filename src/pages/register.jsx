@@ -68,7 +68,7 @@ export const RegisterPage = () => {
                 <Form.Group className="mb-3">
                 <Form.Label>Tickets</Form.Label>
                   <InputGroup>
-                  <Button variant="outline-secondary" onClick={decrease}>-</Button>
+                    <Button variant="outline-secondary" onClick={decrease}>-</Button>
                     <Form.Control
                       type='number'
                       min={min_entradas}
