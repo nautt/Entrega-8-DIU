@@ -1,0 +1,17 @@
+$footer-color: rgb(10, 10, 10);
+
+.footer {
+    background-color: $footer-color;
+    padding: 20px 40px;
+
+    .container-fluid .row .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';

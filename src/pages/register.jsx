@@ -7,7 +7,9 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Spinner from 'react-bootstrap/Spinner';
+
 import Custom_Navbar from '../components/navbar.jsx'
+import Footer from '../components/footer.jsx';
 
 export const RegisterPage = () => {
   const [counterEntradas, setCounter] = useState(1);
@@ -101,6 +103,7 @@ export const RegisterPage = () => {
           </Card>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
