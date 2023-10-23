@@ -8,6 +8,7 @@ import ActualPage from '../pages/proy_actual'
 import AnteriorPage from '../pages/proy_anterior'
 import RegisterPage from '../pages/register'
 import SearchResults from '../pages/search'
+import LoadingPage from '../pages/loading_page'
 
 
 const AppRouter = () => {
@@ -21,6 +22,7 @@ const AppRouter = () => {
         <Route path='/proy_anterior' element={<AnteriorPage/>} />
         <Route path='/register_page' element={<RegisterPage/>} />
         <Route path='/search' element={<SearchResults/>} />
+        <Route path='/register_result' element={<LoadingPage/>} />
       </Routes>
     </BrowserRouter>
   )

@@ -7,8 +7,10 @@ export const AnteriorPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <h1>Proyectos de la Feria de Software de ediciones anteriores</h1>
-      <Button variant="contained">button</Button> 
+      <div className='container' style={{marginTop:"40px"}}>
+        <h1>Proyectos de la Feria de Software de ediciones anteriores</h1>
+        <Button variant="contained">button</Button> 
+      </div>
     </>
   )
 }

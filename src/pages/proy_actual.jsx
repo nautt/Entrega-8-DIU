@@ -4,7 +4,8 @@ import Custom_Navbar from '../components/navbar.jsx'
 import '../stylesheets/rectangles/oneRectangle.scss'
 const jsonData = require('../assets/proyectos.json');
 
-import placeholder from '../assets/placeholder.jpg'
+import placeholder1 from '../assets/youtube-buffering.gif'
+import placeholder2 from '../assets/placeholder.jpg'
 
 const categories = ["Inteligencia Artificial", "Realidad Virtual y Aumentada", 
                     "Tecnología en la Educación"];
