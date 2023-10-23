@@ -1,10 +1,7 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Searchbar from './search_bar.jsx';
 
@@ -44,17 +41,6 @@ export const Custom_Navbar = () => {
             <Nav.Link href="/auspiciadores">Auspiciadores</Nav.Link>
             <Nav.Link href="/proy_actual">Proyectos Actuales</Nav.Link>
             <Nav.Link href="/proy_anterior">Proyectos Ediciones Anteriores</Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
           <Searchbar/>
           <Button className="justify-content-end register_button" variant="success" href='/register_page'>
@@ -64,6 +50,6 @@ export const Custom_Navbar = () => {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default Custom_Navbar;
