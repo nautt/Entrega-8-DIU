@@ -6,12 +6,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
-import Searchbar from './search_bar.jsx';
-
+import Searchbar from './searc_bar.jsx';
 
 import LogoUSM from '../assets/usm.png'
 // import LogoFeria from 'https://www.feriadesoftware.cl/wp-content/themes/AA-fesw2017/img/fesw-logo.png'
 
+const title = ["Realidad Virtual y Aumentada", "Inteligencia Artificial", 
+                    "Tecnología en la Educación"];
+
+const handleSearch = (searchTerm) => {
+
+    const regex = new RegExp(searchTerm, "i");
+    const filteredTitles = titles.filter((title) => regex.test(title));
+    console.log(filteredTitles);
+};
 export const Custom_Navbar = () => {
   return (
 
@@ -60,7 +68,7 @@ export const Custom_Navbar = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          <Searchbar/>
+          <Searchbar onSearch={handleSearch}/>
           <Button className="justify-content-end register_button" variant="success" href='/register_page'>
             RESERVA TU ENTRADA
           </Button>{' '}
