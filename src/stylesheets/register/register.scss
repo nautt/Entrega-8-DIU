@@ -23,8 +23,9 @@
 
 .card.form-container {
     width: 40rem;
-    background-color: rgba($color: $main-color, $alpha: .9);
+    background-color: rgba($color: $main-color, $alpha: .7);
     box-shadow: 0px 10px 20px 6px black;
+    align-self: center;
 }
 
 .card-body.register-card-body {
@@ -35,5 +36,15 @@
     color: whitesmoke !important;
 }
 
+.register-result-card {
+    display: flex;
+    flex-direction: column;
+
+    .loading-spinner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
 
 @import '~bootstrap/scss/bootstrap'
