@@ -4,6 +4,7 @@ import Custom_Navbar from '../components/navbar.jsx'
 import OneRectangle1 from '../components/cuadro_historia.jsx'
 import OneRectangle2 from '../components/cuadro_historia2.jsx'
 import '../stylesheets/rectangles/oneRectangle.scss'
+import Footer from '../components/footer.jsx';
 
 export const HistoriaPage = () => {
   return (
@@ -15,6 +16,7 @@ export const HistoriaPage = () => {
         <h1 style={{marginTop: "40px"}}>Organización</h1>
         <OneRectangle2/>
       </div>
+      <Footer/>
     </>
   )
 }

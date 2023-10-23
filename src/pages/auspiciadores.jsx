@@ -7,7 +7,7 @@ import LogoUSM from '../assets/usm2.png'
 import LogoSOCIALWEB from '../assets/socialWeb.png'
 import LogoAPSIDE from '../assets/apside.png'
 import SaltoLinea from '../assets/blanco.png'
-
+import Footer from '../components/footer.jsx';
 
 export const AuspiPage = () => {
   return (
@@ -37,6 +37,7 @@ export const AuspiPage = () => {
           </div> */}
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

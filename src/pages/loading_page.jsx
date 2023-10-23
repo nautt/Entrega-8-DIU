@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Custom_Navbar from '../components/navbar.jsx';
+import Footer from '../components/footer.jsx';
 
 export const LoadingPage = () => {
 
@@ -30,6 +31,7 @@ export const LoadingPage = () => {
           </Card>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 export const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <Container fluid>
                 <Row>
                     <Col>
@@ -21,6 +21,7 @@ export const Footer = () => {
                     <Col>
                         <h4>XXXI Feria de Software</h4>
                         <p>Campus Casa Central Valparaíso</p>
+
                     </Col>
                     <Col>
                         <img
@@ -33,7 +34,7 @@ export const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </footer>
     );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import RectangleCards from '../components/rectangle_cards.jsx'
 import Custom_Navbar from '../components/navbar.jsx'
+import Footer from '../components/footer.jsx';
 import '../stylesheets/rectangles/oneRectangle.scss'
 const jsonData = require('../assets/proyectos.json');
 
@@ -25,17 +26,20 @@ export const ActualPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <h1>Proyectos de la Feria de Software de la edición actual</h1>
-        <div>
-          {categories.map((category, index) => (
-            <RectangleCards
-              key={category}
-              title={category}
-              color={colors[index]}
-              data={jsonData.filter(item => item.category === category)}
-            />
-          ))}
-        </div>
+      <div className='container' style={{marginTop:"40px"}}>
+        <h1>Proyectos de la Feria de Software de la edición actual</h1>
+          <div>
+            {categories.map((category, index) => (
+              <RectangleCards
+                key={category}
+                title={category}
+                color={colors[index]}
+                data={jsonData.filter(item => item.category === category)}
+              />
+            ))}
+          </div>
+      </div>
+      <Footer/>
     </>
   )
 }
