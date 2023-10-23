@@ -1,0 +1,165 @@
+[
+  {
+    "name": "ANIMA",
+    "description": "Animacion 3D generada por IA",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "EYON",
+    "description": "EYON es un software de inteligencia artificial destinado a locales comerciales para mejorar sus sistemas de seguridad.",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "Mindful Motion",
+    "description": "Yoga personalizado con corrección de postura",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "NoiseTrack",
+    "description": "Software orientado al monitoreo de riesgos auditivos en ambientes laborales donde se generan niveles altos de ruido, con el objetivo de velar por la seguridad auditiva de los trabajadores.",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "PRAXUS",
+    "description": "Plataforma de administración y validación de prácticas",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "PhisherFox",
+    "description": "PhisherFox es una solución proactiva de identificación de campañas de phishing que protege a las empresas de la suplantación de marca, identificando dominios maliciosos de manera automatizada utilizando IA.",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "TideSense",
+    "description": "Detectamos microalgas y protegemos tus cultivos marinos",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "Track The Trucker",
+    "description": "Track the Trucker es un almacén de información que utilizando un modelo estadístico e inteligencia artificial busca solucionar el problema de identificación de conductores en flotas de vehículos.",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "VolleyAI",
+    "description": "Sistema de asistencia para voleibolistas que permite simplificar la generación de resúmenes estadísticos al finalizar una partida.",
+    "year": 2023,
+    "category": "Inteligencia Artificial"
+  },
+  {
+    "name": "AR-Go",
+    "description": "Aplicación que apoya el trabajo de psicopedagogos",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "Australis Oculus",
+    "description": "Fomentar el patrimonio natural mediante tecnologia",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "CrisisVR",
+    "description": "Virtual Reality: Training on simulated emergencies",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "CuisineAR",
+    "description": "Preservamos culturas a través de la gastronomía ancestral. Aplicación móvil con realidad aumentada that revive platos, ingredientes y técnicas olvidadas.",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "EmpathySense",
+    "description": "Software educacional en realidad virtual sobre crisis de pánico, busca psicoeducar y empoderar a las personas en el manejo de estas, enseñando primeros auxilios psicológicos y aplicándolos en situaciones cotidianas.",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "Fake Friend",
+    "description": "Una experiencia virtual para evitar errores reales",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "Gui-AR",
+    "description": "Aplicación móvil que utiliza IA, AR y Wi-Fi para brindar orientación a sus visitantes en instalaciones de mediano a gran tamaño, mostrando el camino desde un punto a otro.",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "LifeSwapp",
+    "description": "Empatía y conciencia social con realidad virtual.",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "SeniorsVR",
+    "description": "Monitoreo y diagnóstico de demencias con VR",
+    "year": 2023,
+    "category": "Realidad Virtual y Aumentada"
+  },
+  {
+    "name": "3Drummers",
+    "description": "Aplicación de escritorio orientada a asistir a los bateristas en el aprendizaje de una canción mediante la visualización de una interpretación de ésta realizada por un modelo 3D animado del instrumento, permitiéndole al usuario identificar claramente qué elementos de la batería debe tocar en cada parte de la canción y entregándole una herramienta que lo motive a practicar.",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "Carpinch.io",
+    "description": "Carpinchi.io es un juego cooperativo para dispositivos móviles que enseña a adolescentes a protegerse en línea mediante técnicas realistas de ciberseguridad y gamificación",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "El desafío del Maestro",
+    "description": "Juego, 3D, educacion activa, puzzles, EscapeRoom, colaborativo",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "MUVEC",
+    "description": "MUVEC difunde la cultura de los videojuegos chilenos usando Realidad Virtual, entregando información, como contenidos multimedia, de manera centrada, interactiva e inmersiva, apoyando así al gremio de videojuegos en Chile.",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "Mind GuardIAN",
+    "description": "Juegos digitales para apoyar la evaluación oportuna del estado psicológico de los niños, mediante gamificación y análisis de interacciones con Inteligencia Artificial.",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "NatureQuest",
+    "description": "Juego Educacional sobre el Cambio Climático",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "RAPNI",
+    "description": "RAPNI es una aplicación móvil para los tutores y terapeutas que tienen dificultades al enseñar ciertas tareas a los niños y niñas con TEA, con ella, podrán ayudar a que el niño adquiera una mayor autonomía mediante gamificación, de tal forma que las tareas diarias se tornen más entretenidas.",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "Readdy",
+    "description": "Readdy, una app móvil que mejora la comprensión lectora con ejercicios personalizados según el usuario utilizando teoría cognitiva e IA",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  },
+  {
+    "name": "SafeSym",
+    "description": "Videojuego orientado a concientizar sobre ciberseguridad que ayuda a empresas a disminuir los riesgos de sufrir ataques de vectores usuario, entregando experiencias adaptadas a las necesidades",
+    "year": 2023,
+    "category": "Tecnología en la Educación"
+  }
+]
+
