@@ -10,6 +10,11 @@ const jsonData = require('../assets/proyectos.json');
 
 
 export const SearchResults = () => {
+    function removeAccents(str) {
+      return str
+        .normalize("NFD") // Normalize to decomposed form
+        .replace(/[\u0300-\u036f]/g, ""); // Remove combining diacritical marks
+    }
 
     const groupedByCategory = {};
 
@@ -30,7 +35,8 @@ export const SearchResults = () => {
     let matchingCategory = null; // Initialize a variable to store the matching category
 
     const isStringInCategories = string_categories.some((category) => {
-      if (category.toLowerCase().includes(string)) {
+      const category_no_accents = removeAccents(category);
+      if (category_no_accents.toLowerCase().includes(string)) {
         matchingCategory = category; // Store the matching category
       }
         return false;
