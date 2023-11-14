@@ -20,7 +20,7 @@ const handleSearch = () => {
         <InputGroup>
           <FormControl
             type="text"
-            placeholder="Search"
+            placeholder="Buscar tema"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />

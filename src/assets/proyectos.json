@@ -160,6 +160,77 @@
     "description": "Videojuego orientado a concientizar sobre ciberseguridad que ayuda a empresas a disminuir los riesgos de sufrir ataques de vectores usuario, entregando experiencias adaptadas a las necesidades",
     "year": 2023,
     "category": "Tecnología en la Educación"
+  },
+
+
+
+  {
+    "name": "3nDemic",
+    "description": "Videojuego cooperativo orientado a niños de enseñanza básica cuyo diseño permita transmitir a los mismos de manera interactiva e inmersiva conocimientos sobre la fauna de nuestros país, como información sobre sus necesidades vitales, estilos de vida, hábitats, entre otros.",
+    "year": 2022,
+    "category": "30 Edición"
+  },
+  {
+    "name": "Activate",
+    "description": "Activate es una aplicación móvil que simula ser un gimnasio para tu cerebro. Por medio de Inteligencia Artificial, la dificultad de los ejercicios se regulará en base a tu desempeño.",
+    "year": 2022,
+    "category": "30 Edición"
+  },
+
+
+  {
+    "name": "D.O.R.P.A",
+    "description": "Sistema de llamadas automatizadas para detección y seguimiento de la obesidad de la población a través de algoritmos biométricos.",
+    "year": 2021,
+    "category": "29 Edición"
+  },
+  {
+    "name": "DojoCam",
+    "description": "DojoCam enseña defensa personal de manera activa utilizando la cámara de nuestros dispositivos móviles como un profesor creado a través de inteligencia artificial.Esta se dirige a personas que se sientan inseguras y busquen superarse a sí mismos.",
+    "year": 2021,
+    "category": "29 Edición"
+  },
+
+
+  {
+    "name": "+Life",
+    "description": "Sistema informático para la predicción de escasez sanguínea y la realización de tareas esenciales de los centros de transfusión de sangre.",
+    "year": 2020,
+    "category": "28 Edición"
+  },
+  {
+    "name": "Allegro Training",
+    "description": "Aplicación pensada para practicantes de guitarra y violín, ofreciendo varias herramientas útiles para una práctica efectiva.",
+    "year": 2020,
+    "category": "28 Edición"
+  },
+
+
+  {
+    "name": "BEEGILANT",
+    "description": "Beegilant es un sistema de vigilancia, que reconoce posibles actos de violencia lanzando una alerta usando algoritmos de machine learning, además de ofrecer un servicio de streaming",
+    "year": 2019,
+    "category": "27 Edición"
+  },
+  {
+    "name": "Cirkel",
+    "description": "Cirkel es un proyecto conformado por una aplicación y un anillo inteligente que permite alertar a contactos previamente registrados, sobre situaciones de agresión, tales como violencia intrafamiliar y/o ataques sexuales, compartiendo tu ubicación en tiempo real.",
+    "year": 2019,
+    "category": "27 Edición"
+  },
+
+
+  {
+    "name": "BPOne",
+    "description": "Sistema médico personalizado de prevención activa contra lesiones por presión en personas hospitalizadas.",
+    "year": 2018,
+    "category": "26 Edición"
+  },
+  {
+    "name": "BeePlus",
+    "description": "Corregir pruebas nunca fue tán fácil",
+    "year": 2018,
+    "category": "26 Edición"
   }
 ]
 

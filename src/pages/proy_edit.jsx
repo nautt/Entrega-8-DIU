@@ -36,7 +36,7 @@ export const ProyEdit = () => {
       };
       
       const handleSubmit = () => {
-          window.alert('Informacion modificada.')
+          window.alert('Solicitud de cambio en la Información del proyecto realizada.')
           navigate('/');
       };
   return (
@@ -59,14 +59,14 @@ export const ProyEdit = () => {
         </Form.Group>
         <Form.Group className="mb-3"> 
             <Form.Label>Titulo</Form.Label>
-            <Form.Control as="textarea"  onChange={handleTextChange1} 
-                defaultValue={text1}
+            <Form.Control as="textarea" placeholder="Ingresa el nombre de tu proyecto" onChange={handleTextChange1} 
+                //defaultValue={text1}
                 cols={40}/>
         </Form.Group>
         <Form.Group className="mb-3"> 
-            <Form.Label>Descripcion</Form.Label>
-            <Form.Control as="textarea"  onChange={handleTextChange2} 
-                defaultValue={text2}
+            <Form.Label>Descripción</Form.Label>
+            <Form.Control as="textarea" placeholder="Ingresa la nueva descripción de tu proyecto" onChange={handleTextChange2} 
+                //defaultValue={text2}
                 cols={40}
                 rows={5}/>
         </Form.Group>
