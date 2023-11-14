@@ -26,7 +26,7 @@ export const AnteriorPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <div className='container' style={{marginTop:"40px"}}>
+      <div className='container' style={{marginTop:"40px", flexDirection:'column'}}>
       <h1>Proyectos de la Feria de Software de ediciones anteriores</h1>
           <div>
             {ediciones.map((category, index) => (
@@ -44,24 +44,4 @@ export const AnteriorPage = () => {
     </>
   )
 }
-
-/*
-export const AnteriorPage = () => {
-  return (
-    <>
-      <Custom_Navbar/>
-      <div className='container' style={{marginTop:"40px"}}>
-        
-        <Button variant="contained">button</Button> 
-      </div>
-      <Footer/>
-    </>
-  )
-}
-*/
-
-/*
-
-
-*/
 export default AnteriorPage

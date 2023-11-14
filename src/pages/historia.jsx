@@ -10,7 +10,7 @@ export const HistoriaPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <div className='container' style={{marginTop:"40px"}}>
+      <div className='container' style={{marginTop:"40px", display:'flex', flexDirection:'column'}}>
         <h1>Historia de la Feria de Software</h1>
         <OneRectangle1/>
         <h1 style={{marginTop: "40px"}}>Organización</h1>
