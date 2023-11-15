@@ -1,6 +1,8 @@
 .accordion{
     .custom-acordion{
-        border-width: 0;
+        background-color: transparent;
+        // border-width: 0;
+        border-color: #21405e;
         .accordion-body {
             padding: 0;
         }
@@ -8,6 +10,9 @@
         .accordion-header{
             .accordion-button {
                 background-color: #2e5985;
+            }
+            .accordion-button::after {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="rgba(239, 239, 239, 0.843)" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>');
             }
             .accordion-button:hover{
                 background-color: #6495c7;
