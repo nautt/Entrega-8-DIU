@@ -28,45 +28,31 @@ export const ActualPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <div className='container' style={{marginTop:"40px", display:'flex', flexDirection:'column'}}>
+      <div className='container' style={{margin:"40px auto", display:'flex', flexDirection:'column'}}>
 
         <h1>Proyectos de la Feria de Software de la edición actual</h1>
         <Searchbar/>
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>Accordion Item #1</Accordion.Header>
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
-            <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
+        
         <div>
+          <Accordion>
           {categories.map((category, index) => (
-            <RectangleCards
-              key={category}
-              title={category}
-              color={colors[index]}
-              data={jsonData.filter(item => item.category === category)}
-            />
+            <Accordion.Item eventKey={category} className='custom-acordion'>
+              <Accordion.Header>
+                <div style={{fontSize:"1.5rem", color:"whitesmoke"}}>
+                  {category}
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <RectangleCards
+                  key={category}
+                  // title={category}
+                  color={colors[index]}
+                  data={jsonData.filter(item => item.category === category)}
+                />
+              </Accordion.Body>
+            </Accordion.Item>
           ))}
+          </Accordion>
         </div>
       </div>
       <Footer/>

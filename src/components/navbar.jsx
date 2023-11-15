@@ -35,7 +35,6 @@ export const Custom_Navbar = () => {
           <img
               alt=""
               src='https://www.feriadesoftware.cl/wp-content/themes/AA-fesw2017/img/fesw-logo.png'
-              // width="30"
               height="80"
               className="d-inline-block align-center"
           />{' '}

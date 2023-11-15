@@ -26,7 +26,7 @@ export const AnteriorPage = () => {
   return (
     <>
       <Custom_Navbar/>
-      <div className='container' style={{marginTop:"40px", flexDirection:'column'}}>
+      <div className='container' style={{margin:"40px auto", flexDirection:'column'}}>
       <h1>Proyectos de la Feria de Software de ediciones anteriores</h1>
           <div>
             {ediciones.map((category, index) => (

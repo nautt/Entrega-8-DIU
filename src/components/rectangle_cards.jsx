@@ -7,7 +7,8 @@ function RectangleCards(props){
     return (
     <div className="one-rectangle-container">
       <div className="one-block-element" style={{ backgroundColor: props.color }}>
-        {props.title}
+        {props.title ? props.title: null}
+        {/* {props.title} */}
         <CardCollection data={props.data}/>
       </div>
     </div>

@@ -45,14 +45,17 @@ export const SearchResults = () => {
   return (
     <>
       <Custom_Navbar/>
-      {matchingCategory ? (
-          <div>
-            <h1>Resultados para: {searchQuery}</h1>
-            <CardCollection data={groupedByCategory[matchingCategory]} />
-          </div>
-      ) : (
-        <h1>No hay resultados para: {searchQuery}</h1>
-      )}
+      <div className="container" style={{margin:"40px auto", display:'flex', flexDirection:'column'}}>
+        {matchingCategory ? (
+            <div>
+              <h1>Resultados para: {searchQuery}</h1>
+              <CardCollection data={groupedByCategory[matchingCategory]} />
+            </div>
+        ) : (
+          <h1>No hay resultados para: {searchQuery}</h1>
+        )}
+
+      </div>
     </>
   )
 }

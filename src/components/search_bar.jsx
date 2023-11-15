@@ -15,7 +15,7 @@ const handleSearch = () => {
 };
 
   return (
-    <Form>
+    <Form style={{margin:"2rem 0"}}>
       <Form.Group controlId="searchBar">
         <InputGroup>
           <FormControl

@@ -1,0 +1,19 @@
+.accordion{
+    .custom-acordion{
+        border-width: 0;
+        .accordion-body {
+            padding: 0;
+        }
+
+        .accordion-header{
+            .accordion-button {
+                background-color: #2e5985;
+            }
+            .accordion-button:hover{
+                background-color: #6495c7;
+            }
+        }
+    }
+}
+
+@import '~bootstrap/scss/bootstrap'
