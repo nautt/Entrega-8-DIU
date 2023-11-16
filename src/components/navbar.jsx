@@ -48,9 +48,16 @@ export const Custom_Navbar = () => {
             <Nav.Link href="/proy_actual">Proyectos Actuales</Nav.Link>
             <Nav.Link href="/proy_anterior">Proyectos Ediciones Anteriores</Nav.Link>
           </Nav>
-          <Button className="register-button" variant="success" href='/register_page' style={{marginRight:'5px'}}>
+          
+          {user? (<Button className="register-button justify-content-end"
+                variant="warning" href='/proy_edit'
+                >EDITAR PROYECTO</Button>)
+
+            : <Button className="register-button" variant="success" href='/register_page' style={{marginRight:'5px'}}>
             RESERVA TU ENTRADA
-          </Button>{' '}
+            </Button>
+            }
+          
           
           <Dropdown>
             <Dropdown.Toggle variant="link" id="dropdown-basic">
@@ -67,12 +74,7 @@ export const Custom_Navbar = () => {
               {user ? 
                 <>
                 <Dropdown.ItemText>
-                  <Button 
-                    className="register-button justify-content-end"
-                    variant="warning"
-                    href='/proy_edit'>
-                    Editar mi proyecto
-                  </Button>
+                  
                 </Dropdown.ItemText>
                 <Dropdown.ItemText>
                   <Button 
@@ -98,6 +100,7 @@ export const Custom_Navbar = () => {
           </Dropdown>
 
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
   );
